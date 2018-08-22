@@ -6,7 +6,7 @@ using Unity.Mathematics;
 
 [System.Serializable]
 struct Velocity : IComponentData{
-	public float2 value;
+	public float2 Value;
 }
 
 class VelocityComponent : ComponentDataWrapper<Velocity> {}

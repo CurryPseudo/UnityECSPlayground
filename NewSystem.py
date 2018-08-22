@@ -7,6 +7,7 @@ using Unity.Transforms2D;
 using Unity.Transforms;
 using Unity.Jobs;
 using Unity.Collections;
+using Unity.Mathematics;
 
 public class {0}: JobComponentSystem
 {{

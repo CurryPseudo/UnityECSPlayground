@@ -5,7 +5,7 @@ using System;
 
 [Serializable]
 struct CircleCollider : IComponentData {
-    public float radius;
+    public float Radius;
 }
 
 class CircleColliderComponent : ComponentDataWrapper<CircleCollider>{}

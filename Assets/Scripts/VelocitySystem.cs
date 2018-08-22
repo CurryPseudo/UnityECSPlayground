@@ -13,7 +13,7 @@ public class VelocitySystem : JobComponentSystem
         public float dt;
         public void Execute([ReadOnly]ref Velocity velocity, ref Position2D position)
         {
-            position.Value += velocity.value * dt;
+            position.Value += velocity.Value * dt;
         }
     }
     protected override JobHandle OnUpdate(JobHandle inputDeps) {
